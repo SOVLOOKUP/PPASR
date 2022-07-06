@@ -6,6 +6,6 @@
 
 8191 标点恢复
 
-```
-docker run -p 8190:8190 8191:8191 gonorth/ppasr
+```bash
+docker run -p 8190:8190 -p 8191:8191 gonorth/ppasr
 ```
