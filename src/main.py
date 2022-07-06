@@ -17,7 +17,9 @@ punc = threading.Thread(target=streaming_punc_server,
                         })
 
 if __name__ == "__main__":
+    print("启动ASR服务")
     asr.start()
+    print("启动PUNC服务")
     punc.start()
     asr.join()
     punc.join()
