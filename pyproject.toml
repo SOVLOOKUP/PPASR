@@ -10,7 +10,7 @@ dependencies = [
     "paddlepaddle>=2.3.1",
     "opencv-python>=4.5.4.60",
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 license = {text = "MIT"}
 
 [tool.pdm]
