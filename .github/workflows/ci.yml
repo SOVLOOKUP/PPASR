@@ -14,7 +14,7 @@ jobs:
         uses: ilteoood/docker_buildx@master
         with:
           publish: true
-          imageName: ${{ secrets.DOCKERHUB_USERNAME }}/ppasr:latest
+          imageName: ${{ secrets.DOCKERHUB_USERNAME }}/ppasr
           platform: linux/amd64,linux/arm64
           dockerUser: ${{ secrets.DOCKERHUB_USERNAME }}
           dockerPassword: ${{ secrets.DOCKERHUB_TOKEN }}
