@@ -7,5 +7,4 @@ WORKDIR /usr/src/app/
 RUN pip install pdm
 RUN pdm config pypi.url https://mirror.baidu.com/pypi/simple
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc libsndfile1
-RUN pdm install
-CMD cd /usr/src/app/ && pdm run start
+CMD cd /usr/src/app/ && pdm install && pdm run start
