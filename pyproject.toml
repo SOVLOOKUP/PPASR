@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "paddlespeech>=1.0.1",
     "paddlepaddle>=2.3.1",
+    "opencv-python>=4.5.4.60",
 ]
 requires-python = ">=3.7"
 license = {text = "MIT"}
