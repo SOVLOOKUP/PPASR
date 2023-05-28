@@ -15,7 +15,7 @@ jobs:
         with:
           publish: true
           imageName: ${{ secrets.DOCKERHUB_USERNAME }}/ppasr
-          platform: linux/amd64,linux/arm64
+          platform: linux/amd64
           dockerUser: ${{ secrets.DOCKERHUB_USERNAME }}
           dockerPassword: ${{ secrets.DOCKERHUB_TOKEN }}
                 
