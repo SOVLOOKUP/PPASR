@@ -6,9 +6,9 @@ authors = [
     {name = "sovlookup", email = "gonorth@qq.com"},
 ]
 dependencies = [
-    "paddlespeech>=1.0.1",
-    "paddlepaddle>=2.3.1",
-    "opencv-python>=4.5.4.60",
+    "paddlespeech>=1.4.1",
+    "paddlepaddle>=2.4.2",
+    "opencv-python>=4.7.0.72",
 ]
 requires-python = ">=3.8"
 license = {text = "MIT"}
@@ -19,5 +19,5 @@ license = {text = "MIT"}
 start = "python src/main.py"
 
 [build-system]
-requires = ["pdm-pep517>=0.12.0"]
-build-backend = "pdm.pep517.api"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
